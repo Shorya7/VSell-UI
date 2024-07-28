@@ -1,15 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Card from '../src/assets/card';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Shop from './pages/Shop';
+import Explore from './pages/Explore';
+import Account from './pages/Account';
+import Favourite from './pages/Favourite';
+import Cart from './pages/Cart';
+import BottomNav from './components/BottomNav';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <Card/>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Shop/>} />
+          <Route path="/explore" element={<Explore />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/favourite" element={<Favourite />} />
+          <Route path="/my-account" element={<Account />} />
+        </Routes>
+        <BottomNav/>
+      </Router>
     </>
   )
 }
