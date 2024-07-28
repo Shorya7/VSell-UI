@@ -3,13 +3,13 @@ import React from "react";
 const Card = () => {
   return (
     <div className="container">
-      <div className="head">
+      <div >
         <h1>Title</h1>
       </div>
-      <div className="card_price">
+      <div>
         <p id="price">$50</p>/month<p id="pm"></p>
       </div>
-      <div className="items_list">
+      <div>
         <p>List Item 1</p>
         <p>List Item 1</p>
         <p>List Item 1</p>
@@ -18,8 +18,8 @@ const Card = () => {
         <p>List Item 1</p>
         <p>List Item 1</p>
       </div>
-      <div className="card_button">
-        <button className="sub">Button</button>
+      <div>
+        <button>Button</button>
       </div>
     </div>
   );

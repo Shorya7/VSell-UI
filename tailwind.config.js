@@ -14,6 +14,7 @@ export default {
         'primary-font': '#53B175',
         'primary-btn': '#181725',
         'hover-btn': 'rgb(129 209 160 / 37%)',
+        'search-bg': '#F2F3F2',
       },
     },
   },
