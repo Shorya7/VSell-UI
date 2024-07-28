@@ -2,7 +2,7 @@ import React from 'react'
 
 const Account = () => {
   return (
-    <div>My Account</div>
+    <div className='flex justify-center items-center h-dvh font-extrabold text-3xl'>My Account</div>
   )
 }
 

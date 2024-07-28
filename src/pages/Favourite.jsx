@@ -2,7 +2,7 @@ import React from 'react'
 
 const Favourite = () => {
   return (
-    <div>Favourite</div>
+    <div className='flex justify-center items-center h-dvh font-extrabold text-3xl'>Favourite</div>
   )
 }
 

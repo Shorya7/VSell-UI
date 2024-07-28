@@ -10,9 +10,6 @@ export default {
       xl: '1170px',
     },
     extend: {
-      fontFamily: {
-        gilroy: ['Gilroy', 'sans-serif'],
-      },
       colors: {
         'primary-font': '#53B175',
         'primary-btn': '#181725',
