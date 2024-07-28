@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../assets/Card";
+import Card from '../assets/Card.jsx';
 
 const Shop = () => {
   return (
