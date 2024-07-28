@@ -7,9 +7,21 @@
 @layer base{
   .card{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    width: 150px;
+    height: 180px;
+    border-radius: 20px;
+    filter: drop-shadow(0 10px 20px rgb(0 0 0 / 0.15));
+    border: 1px solid;
+  }
+  @media (max-width:348px){
+    .card{
+      width: 130px;
+      height: 160px;
+      border-radius: 15px;
+    }
   }
 }
 
